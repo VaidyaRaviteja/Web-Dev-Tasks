@@ -1,0 +1,28 @@
+                                            ------- Git -------
+Git is an application which is need to be installed to get connection between Git and Git- Hub. It is a Version control system.
+Features Of GIT: Time saving, Comfortability to use, Fast execution 
+In which we can segregate the files and tracking day - to - day code helps developer to change the code by selecting previous (Rollback) or Till-Date (Roll forward) the previous code on any required situation.
+After installation of GIT to check whether installed properly or not we use Command Prompt in that we have to give command - 
+To know version - "git --version"
+If version didn't displayed in terminal then Go-To environmental variables in settings then select path variables there choose edit or New option over there depending on the situation firstly check if the Git-Path already given or not by selecting path edit then check over there if not given then select New option "add the path of GIT bin" if path is given cross-check the path in it. 
+Process of moving files from local to remote:
+Working Directory (git add) --> staging area (git commit) -->local repo (git push) -->remote repo ()
+To move files into Git-Hub from an IDE we need to initialize the git from the terminal of which project we want to move. By giving some commands
+- To change the directory to git - "cd git"
+- To Initialize git              - "git init"// We get message- initialized empty git repository and we don't need to write this everytime whenever we need to PUSH files to github
+- To know count of files and what are they and status of untracked and tracked files details    -  git status" // will get msg - how to add file 
+- To select a file into GitHub - "git add filename.html or css or any other extension required can be given"
+- To check status again - "git status"// shows committed files and untracked files 
+* All the tracked files will be in staging area
+- To move from staging area to other stage - "git commit -m "Description for file" " // Here we can see the current version initial version code of file which means it changes every time whenever we change or commit the file 
+- To build connection between git to repo of git hub - "git remote add origin URL of repository of github https URL only not SSH" // Now we connected with GitHub repo and here we don't need to write this code everytime to PUSH files it is required to write once in the first time.
+- First we need to change the branch to main in both IDE terminal and in GitHub to PUSH files into github - "git branch -M main"
+- Now we can PUSH files into GitHub - "git push origin main"
+
+                                         ------- GIT HUB ------
+
+To upload each file or a folder will be time consuming thing especially with a limited memory access to upload a file is a tough job.
+It is a storage area. In GitHub to upload a folder we need to drag and drop them in drag window after that it will take few seconds to upload folder depending on the folder data else if we select a folder and submit it will take us into the folder to upload a single file. Git-Hub files can be shared.
+By using Git-Hub we can upload a folder not above the 20mb of memory space into repository. In process of uploading a file into GitHub there will be a two options called "PRIVATE" and "PUBLIC". By selecting private makes our code not to be displayed to anyone whereas by selecting public it makes our code availability to everyone and get access to it without any restrictions.
+In real-time developers use private option while upload a file in git-hub and then upload the code, connects each other through git and git-hub applications and works collectively as per required specifications then after they will upload entire code into other repository.
+So after getting files into git-hub from git now we can check in the repository which we gave, there will be commit option once clicked over there we can see the previous version nothing but version codes with time and date so we can the code whenever we are required from there using commit code
