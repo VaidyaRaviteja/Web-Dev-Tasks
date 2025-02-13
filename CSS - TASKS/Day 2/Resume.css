@@ -1,0 +1,82 @@
+
+#h3{
+    color: black;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+#h2{
+    text-align: center;
+}
+
+#pre{
+    
+    font-weight: bold;
+}
+
+
+#object{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#edu{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#branch{
+    font-weight: bold;
+}
+
+#college{
+
+}
+
+#cgpa{
+    font-weight: bold;
+}
+
+#tech{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#webtech{
+    
+    font-weight: bold;
+}
+
+#languages{
+    
+    font-weight: bold;
+}
+
+#tools{
+
+    font-weight: bold;
+
+}
+#declare1{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#declare2{
+}
+
+#location{
+    font-weight: bold;
+}
+
+#date{
+
+    font-weight: bold;
+}
+
+#back{
+
+    text-align: center;
+    font-weight: bold;
+
+}
