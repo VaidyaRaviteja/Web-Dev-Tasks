@@ -1,0 +1,167 @@
+.navbar{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+#navbar-h1{
+color: rgb(95, 99, 227);
+}
+#navbar-links{
+/* background-color: beige; */
+display: flex;
+align-items: center;
+column-gap: 15%;
+
+}
+#navbar-links > a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+#contact{
+    background-color: rgb(95, 95, 220);
+    padding: 5px 30px;
+    font-size: 22px;
+}
+
+.LandingPage{
+    display: flex;
+    /* justify-content: center; */
+}
+.LandingPage >.LandingPageText{
+    width: 40%;
+    padding: 0px 30px;
+    /* background-color: aquamarine; */
+}
+.LandingPageText > h1{
+
+    font-size: 60px;
+    padding: 80px 26px 0px 20px;
+    color: rgb(22, 22, 118);
+}
+.LandingPageText > p{
+
+    font-size: 1.5em;
+    padding: 3px 20px;
+    color:  rgb(93, 93, 199);
+}
+.LandingPage > img{
+    padding: 0px 60px;
+    width: 40%;
+}
+.LandingPageButns{
+    display: flex;
+}
+.LandingPageText > .LandingPageButns > .explore{
+    background-color: rgb(13, 37, 63);
+    color: white;
+    font-size: 22px;
+    padding: 10px 35px;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: 3px 4px 2px rgb(10, 23, 45);
+}
+.LandingPageText > .LandingPageButns > .learn{
+    background-color: white;
+    color: rgb(52, 82, 114);
+    font-size: 22px;
+    padding: 10px 35px;
+    border-radius: 4px;
+    margin: 10px;
+    box-shadow: 3px 4px 7px rgb(143, 166, 210);
+}
+.Intro{
+    margin: 20px 350px ;
+    text-align: center;
+    /* align-items: center; */
+          /* width: 400px; */
+          /* padding: 10px 100px; */
+
+}
+.IntroText > h1{
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 3.5em;
+    padding: 100px 10px 10px 0px;
+    color: rgb(14, 11, 116);
+}
+.IntroText > p{
+    font-size: 1.5em;
+    color: rgb(18, 73, 132);
+    line-height: 120%;
+    width: 590px;
+}
+
+.IntroButns > p{
+    background-color: rgb(20, 23, 88);
+    display: inline;
+    color: white;
+    padding: 10px 15px;
+}
+.IntroButns > .get:hover{
+    background-color: orange;
+}
+
+.part1{
+    display: flex;
+}
+.image{
+    display: flex;
+    width: 45%;
+    /* background-color: bisque; */
+}
+.image > img{
+    padding: 20px 0px 5px 0px;
+    /* background-color: aquamarine; */
+    align-items:start;
+    width: 85%;
+}
+.part2{
+    width: 45%;
+    /* background-color: blue; */
+}
+.part2 > .text1 > h1{
+    font-weight: lighter;
+    color: rgb(36, 36, 111);
+    font-size: 3.5em;
+    padding: 40px 0px 0px 120px;
+}
+.part2 > .text1 > p{
+    padding: 0px 0px 0px 110px;
+    font-size: 1.5em;
+    color: rgb(36, 36, 111);
+
+}
+/* .part2 > .part3-4{
+    width: 50%;
+    display: flex;
+    padding: 0px 0px 0px 120px;
+    column-gap: 2cm;
+} */
+.part3-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 120px;
+    width: 100%;
+}
+.part3, .part4{
+    /* background-color: aqua; */
+    width: 45%;
+    text-align:left;
+}
+.part3 > img, .part4 > img{
+    width: 50px;
+}
+.part3 p, .part4 p{
+    font-size: 1.2em;
+    color: rgb(36,36,111)
+}
+/* .part3 > .img{
+}
+.part3 > .text4{
+    font-weight: 0px;
+} */
