@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar > a{
+    text-decoration: none;
+
+}
+.navbar > #CoffeHouse{
+    font-weight: 900;
+}
