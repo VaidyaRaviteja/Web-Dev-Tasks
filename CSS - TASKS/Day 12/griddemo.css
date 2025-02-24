@@ -1,0 +1,78 @@
+/*   revision of flex
+    .griddemo{
+    background-color: blueviolet;
+    display: flex;
+} */
+/* .child{
+    flex-grow: 1;        to increase the size
+    flex-shrink: 1;      to get shrink whenever dimensions get changes automatically it shrinks
+    flex-basis: 170px;    to min size 
+    flex: 1 1 170px;      we can give above three values in a single property flex arranged in grow property, shrink property, basis property
+    background-color: purple;
+    margin: 10px;
+} */
+
+/* .parent{
+    display: flex;
+    background-color: brown;
+}
+.parent > div{
+    background-color: blue;
+    position: relative;
+    flex-grow: ;
+    padding: 20px;
+    margin: 10px;
+} */
+*{
+    margin:0;
+    padding:0;
+}
+
+.griddemo{
+    /* display: grid;
+    grid-template-columns: 200px;
+    grid-template-columns: 200px 300px 300px;
+    grid-template-columns: 200px 300px auto;  here i mentioned only for 3 elements other than 3 will be get print in the next row and will the print according to the 
+      above row value which nothing but manam only 3 div ki values specify chesam other div ki cheyaledhu so nnext row lo first row values ni second row div ki assign chesthadhi  
+       grid-template-columns: 200px 300px auto; */
+
+       display: grid;
+       background-color: blueviolet;
+       /* grid-template-columns: 200px 300px auto 250px;  */
+       /* here for auto value browser will check if any other values there if so then browser will calculate that value by then it gives the auto which the remaining space */
+        /* And also we shouldn't take the absolute values (in px,cms,rem) to specify a element bcz in other dimensions it may won't give appropriate output so better to use relative values suvh as percentage values */
+        padding: 5px;
+        /* grid-template-columns: 20% 30% auto 45%; but still it is comming outside of specified length so lets use vw  */
+        /* grid-template-columns: 20vw 30vw auto;  */
+
+        /* Now i want to increase the size of specified row  */
+        /* grid-template-rows: 150px; */
+        /* grid-template-rows: 40px 200px; */
+
+        /* column-gap: 20px;
+        row-gap: 20px; */
+        /*gap: 20px 80px;  first value row-gap n second value column-gap */
+        /* grid-template-rows: 50px 50px; */
+
+        /*justify-items: center;    to align center the child element horizontally in grid cell... here manaki grid lo ni content grid cell lo align cheyadaniki use avuthundi  */
+        /* justify-items: start;justify-items: end; */
+
+        /*align-items: center;  To align center the element the child element vertically in grid cell  */
+        /* Justify-items n align-items ki shorthand property is place-items same as gap for row-gap and column-gap */
+
+        /* grid-template-columns: repeat(4,300px 400px 200px); so here i am getting child content outside the range of some specified range bcz of absolute value*/
+        /* grid-template-columns: repeat(3,25%); */
+        /* grid-template-columns: repeat(4,25vw); so even using percentage or viewportwidth still is getting outside so for grid we use 'fr' */
+
+        /* grid-template-columns: 200px 1fr 2fr; */
+        /* grid-template-columns: 1fr 1fr; */
+        /* grid-template-columns: repeat1fr 1fr 1fr; */
+        column-gap: 10px;
+        grid-template-columns: repeat(4,1fr);
+
+
+}
+.child{
+    background-color: brown;
+    /* margin: 5px; */
+}
