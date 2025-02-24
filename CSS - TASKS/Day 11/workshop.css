@@ -48,28 +48,15 @@
 }
 .card1 > .btns{
     display: flex;
-    margin-top: 20px;
-    padding: 10px;
-    justify-content: space-between;
-    /* column-gap: 35px; */
-    /* justify-content: space-around; */
 }
-/* .btns > button{
-    background-color: rgb(237, 150, 18);
-    border: none;
-    padding: 10px 15px;
-    border-radius: 7px;
-    cursor: pointer;
-} */
 
-.btns > button{
-    display: flex;
+
+div > button{
     background-color: rgb(237, 150, 18);
-    justify-content: space-between;
     padding: 10px 15px;
     border-radius: 10px;
+    column-gap: 20px;
     border: none;
-    /* gap: 50px; */
 }
         
 @media only screen and (max-width:768px){
