@@ -1,0 +1,14 @@
+div {
+    width: 100%;
+    height: 100px;
+    animation-name: first;
+    animation-timing-function: ease-in;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}
+@keyframes first{
+    0% {background-color: yellow;}
+    50%{ background-color:red;}
+    100%{background-color:green;}
+}
