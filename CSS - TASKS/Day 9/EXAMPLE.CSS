@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(88, 67, 222); */
+    background-color: rgb(74, 110, 179);
+
+
+}
+
+.navbar {
+    display: flex;
+    column-gap: 220px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+    height: 150px;
+    background-color: rgb(74, 110, 179);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 40px;
+    margin-left: 50px;
+    color: rgb(74, 110, 179);
+    /* background-color: rgb(0, 89, 255); */
+}
+
+.logo>img {
+    border-radius: 25px;
+
+}
+
+.logo>span {
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    left: 200px;
+    padding: 20px;
+    align-items: center;
+}
+
+#home>a {
+    color: rgb(237, 239, 241);
+    align-items: flex-end;
+    text-decoration: none;
+    justify-content: end;
+    font-size: x-large;
+}
+
+#home>button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: medium;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(236, 110, 110);
+}
+
+.section2 {
+    display: flex;
+    /* background-color: ; */
+}
+
+.part1 {
+    width: 50%;
+    /* background-color: beige; */
+    /* background-color: rgb(74, 110, 179); */
+    padding: 30px;
+}
+
+.input {
+    display: inline-block;
+    padding: 15px;
+    border: none;
+}
+
+.part1>span {
+    background-color: rgb(236, 110, 110);
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.part1>h3 {
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+.part1>h1 {
+    width: 50%;
+    font-size: xx-large;
+    padding: 10px;
+    color: aliceblue;
+
+}
+
+.part1>p {
+    /* padding-top: 10px; */
+    width: 71%;
+    padding: 10px;
+    font-size: large;
+    line-height: 30px;
+    color: aliceblue;
+
+}
+
+.part1>input {
+    width: 220px;
+    margin-top: 30px;
+    /* background-color: aliceblue; */
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.part2 {
+    width: 30%;
+    /* background-color: rgb(74, 110, 179); */
+
+}
+
+.part2>#image {
+    margin-left: 150px;
+}
+
+.part2>img {
+    border-radius: 18px;
+    height: 460px;
+}
+
+#section3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    position: relative;
+    top: -70px;
+
+}
